@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: url(travel.png);
+  background: cover;
+}
+
+.d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.d li {
+  float: left;
+}
+
+.d li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.d .active {
+  background-color: gray;
+}
+
+.d1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  height: 1000px;
+  overflow: auto;
+}
+
+.d1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d1 li a.active {
+  background-color: black;
+  color: black;
+}
+
+.d1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="d">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a class="active" href="travel.html">Travel</a></li>
+</div>
+
+<div class="d1">
+  <li><a href="japan.html">Japan</a></li>
+  <li><a href="korea.html">Korea</a></li>
+  <li><a href="paris.html">Paris</a></li>
+</div>
+
+</body>
+</html>

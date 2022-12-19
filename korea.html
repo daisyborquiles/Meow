@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: turquoise;
+}
+
+.d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.d li {
+  float: left;
+}
+
+.d li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.d .active {
+  background-color: gray;
+}
+
+.d1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  height: 1000px;
+  overflow: auto;
+}
+
+.d1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d1 li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.d1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+.d2 {
+  margin-left: 500px;
+}
+
+.d3 {
+  text-align: center;
+  margin-right: 240px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="d">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a class="active" href="travel.html">Travel</a></li>
+</div>
+
+<div class="d1">
+  <li><a href="japan.html">Japan</a></li>
+  <li><a class="active" href="korea.html">Korea</a></li>
+  <li><a href="paris.html">Paris</a></li>
+</div>
+
+<div class="d2">
+  <h2>KOREA</h2>
+  <a target="_blank" href="korea.png">
+    <img src="korea.png" width="600" height="400">
+  </a>
+  <div class="d3">I want to travel in Korea because Seoul looks like an amazing city. It has beautiful Asian culture. Beautiful Asian temples. It has crazy nightlife. It has ancient Asian history. It has lots of shopping. It lots of street food. It has lots of clubs. It has definitely district's. It has Gangnam, Hongdae, and Itaewon. Those are popular areas in Seoul. Dongdaemun is a popular shopping area in Seoul. Myeong-dong is also a popular shopping area in Seoul.</div>
+</div>
+</body>
+</html>

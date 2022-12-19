@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: turquoise;
+}
+
+.d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.d li {
+  float: left;
+}
+
+.d li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.d .active {
+  background-color: gray;
+}
+
+.d1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  height: 1000px;
+  overflow: auto;
+}
+
+.d1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d1 li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.d1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+.d2 {
+  margin-left: 500px;
+}
+
+.d3 {
+  text-align: center;
+  margin-right: 240px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="d">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="career.html">Career</a></li>
+  <li><a class="active" href="travel.html">Travel</a></li>
+</div>
+
+<div class="d1">
+  <li><a href="japan.html">Japan</a></li>
+  <li><a href="korea.html">Korea</a></li>
+  <li><a class="active" href="paris.html">Paris</a></li>
+</div>
+
+<div class="d2">
+  <h2>PARIS</h2>
+  <a target="_blank" href="paris.png">
+    <img src="paris.png" width="600" height="400">
+  </a>
+  <div class="d3">If I had a chance to travel, I would definitely love to go to Paris, France. The reason I would <br> like to visit Paris is because of how nice and how wonderful the place looks. I would like to <br> visit Paris because it is very beautiful and the most romantic city in the world. Paris, France <br> is one of the most amazing places you will ever visit. Many People like to go to the Eiffel <br> Tower at night because it is all light up.</div>
+</div>
+</body>
+</html>

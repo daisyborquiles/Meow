@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: turquoise;
+}
+  
+.s {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.s li {
+  float: left;
+}
+
+.s li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.s li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.s .active {
+  background-color: gray;
+}
+
+.s1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.s1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.s1 li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.s1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+.s2 {
+  margin-left: 500px;
+}
+
+.s3 {
+  text-align: center;
+  margin-right: 240px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="s">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a class="active" href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="s1">
+  <li><a href="doctor.html">Doctor</a></li>
+  <li><a class="active" href="psychology.html">Psychologist</a></li>
+  <li><a href="computer.html">Computer Engineering</a></li>
+</div>
+
+<div class="s2">
+  <h2>PSYCHOLOGIST</h2>
+  <a target="_blank" href="psychology.png">
+    <img src="psychology.png" width="600" height="400">
+  </a>
+  <div class="s3">I want to become a Psychologist as I am becoming 15 years old. Psychology has interested me from a young age, but I never knew what it was at that time. My entire life I have always wanted to do something where I would be remembered positively by many people. </div>
+</div>
+
+</body>
+</html>

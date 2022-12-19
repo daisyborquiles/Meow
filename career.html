@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: url(career.png);
+  background: cover;
+  background-position: center;
+}
+
+.c {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.c li {
+  float: left;
+}
+
+.c li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.c li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.active {
+  background-color: gray;
+}
+
+.c1 {
+  list-style-type: none;
+  margin-left: 1px;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.c1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.c1 li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.c1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="c">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a class="active" href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="c1">
+  <li><a href="doctor.html">Doctor</a></li>
+  <li><a href="psychology.html">Psychologist</a></li>
+  <li><a href="computer.html">Computer Engineering</a></li>
+</div>
+
+</body>
+</html>

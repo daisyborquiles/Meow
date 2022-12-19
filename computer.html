@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: turquoise;
+}
+
+.e {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.e li {
+  float: left;
+}
+
+.e li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.e li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.e .active {
+  background-color: gray;
+}
+
+.e1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.e1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.e1 li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.e1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+.e2 {
+  margin-left: 500px;
+}
+
+.e3 {
+  text-align: center;
+  margin-right: 240px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="e">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a class="active" href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="e1">
+  <li><a href="doctor.html">Doctor</a></li>
+  <li><a href="psychology.html">Psychologist</a></li>
+  <li><a class="active" href="computer.html">Computer Engineering</a></li>
+</div>
+
+<div class="e2">
+  <h2>COMPUTER ENGINEERING</h2>
+  <a target="_blank" href="computer.png">
+    <img src="computer.png" width="600" height="400">
+  </a>
+  <div class="e3">As I am becoming a college student, I have decided to myself that I really want to be a computer engineer in the future. I like programming and I think that computers are very interesting machines and they are the wave of the future.</div>
+</div>
+
+</body>
+</html>

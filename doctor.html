@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: turquoise;
+}
+
+.d {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: tan;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.d li {
+  float: left;
+}
+
+.d li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d li a:hover:not(.active) {
+  background-color: gray;
+}
+
+.active {
+  background-color: gray;
+}
+
+.d1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  background-color: tan;
+  font-size: 18px;
+  overflow: auto;
+  height: 1000px;
+}
+
+.d1 li a {
+  display: block;
+  background-color: tan;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.d1 li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.d1 li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+.d2 {
+  margin-left: 500px;
+}
+
+.d3 {
+  text-align: center;
+  margin-right: 240px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="d">
+  <li><a href="profile.html">Profile</a></li>
+  <li><a class="active" href="career.html">Career</a></li>
+  <li><a href="travel.html">Travel</a></li>
+</div>
+
+<div class="d1">
+  <li><a class="active" href="doctor.html">Doctor</a></li>
+  <li><a href="psychology.html">Psychologist</a></li>
+  <li><a href="computer.html">Computer Engineering</a></li>
+</div>
+
+<div class="d2">
+  <h2>DOCTOR</h2>
+  <a target="_blank" href="doctor.png">
+    <img src="doctor.png" width="600" height="400">
+  </a>
+  <div class="d3">When I was a kid, I want to become a doctor because I love helping others. I like when people come and thank the doctors for their job. By becoming a doctor, you take away the pain and sufferings of others by giving them medical treatment and healthcare.</div>
+</div>
+
+</body>
+</html>
